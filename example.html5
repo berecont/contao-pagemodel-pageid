@@ -1,0 +1,2 @@
+ <?php $page = Contao\PageModel::findById($pageId) ?>
+<?= $page->pageTitle ?: $page->title ?> 
