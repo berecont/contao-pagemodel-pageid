@@ -1,2 +1,5 @@
- <?php $page = Contao\PageModel::findById($pageId) ?>
+<?php $page = Contao\PageModel::findById($pageId) ?>
 <?= $page->pageTitle ?: $page->title ?> 
+
+<!-- https://contao.slack.com/archives/CLTUNH78X/p1668771156401109?thread_ts=1668770552.334779&cid=CLTUNH78X -->
+<?php $page = Contao\PageModel::findByPk($this->page) ?>
